@@ -9,6 +9,6 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Test Project Symlinks
-        uses: donatj/annotate-pull-request-from-checkstyle@22516bbdc56e4f50189ac7a7ef5e0f6a5d0220cf
+        uses: donatj/annotate-pull-request-from-checkstyle@02d1373a9113f624dff987caf783bef6c7c3f77b
         with:
           files: out.chk
