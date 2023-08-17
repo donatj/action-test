@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="3.7.2">
-
+<file name="/FakeFileNameOne.php">
+ <error line="129" column="38" severity="warning" message="Modulus operator is not allowed" source=".Misc.ModulusDetector.ModulusNotAllowed"/>
+ <error line="130" column="20" severity="warning" message="Modulus operator is not allowed" source=".Misc.ModulusDetector.ModulusNotAllowed"/>
+</file>
+<file name="/FakeFileNameTwo.php">
+ <error line="30" column="46" severity="warning" message="Modulus operator is not allowed" source=".Misc.ModulusDetector.ModulusNotAllowed"/>
+ <error line="31" column="46" severity="warning" message="Modulus operator is not allowed" source=".Misc.ModulusDetector.ModulusNotAllowed"/>
+ <error line="43" column="47" severity="warning" message="Modulus operator is not allowed" source=".Misc.ModulusDetector.ModulusNotAllowed"/>
+</file>
+<file name="/FakeFileNameThree.php">
+ <error line="46" column="36" severity="warning" message="Modulus operator is not allowed" source=".Misc.ModulusDetector.ModulusNotAllowed"/>
+ <error line="67" column="39" severity="warning" message="Modulus operator is not allowed" source=".Misc.ModulusDetector.ModulusNotAllowed"/>
+ <error line="68" column="20" severity="warning" message="Modulus operator is not allowed" source=".Misc.ModulusDetector.ModulusNotAllowed"/>
+ <error line="140" column="44" severity="warning" message="Modulus operator is not allowed" source=".Misc.ModulusDetector.ModulusNotAllowed"/>
+ <error line="141" column="20" severity="warning" message="Modulus operator is not allowed" source=".Misc.ModulusDetector.ModulusNotAllowed"/>
+</file>
 </checkstyle>
