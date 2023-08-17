@@ -1,0 +1,15 @@
+name: CS2PR
+on:
+  - pull_request
+  - push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Test Project Symlinks
+        uses: donatj/annotate-pull-request-from-checkstyle@d165aecf776bce5c20201ae096a4e7668b7a8d43
+        with:
+          file: out.chk
