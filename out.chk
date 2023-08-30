@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="3.7.2">
-
+<file name="Auditor.php">
+ <error line="129" column="4" severity="error" message="Modulus operator is not allowed" source=".Misc.ModulusDetector.ModulusNotAllowed"/>
+ <error line="130" column="8" severity="error" message="Modulus operator is not allowed" source=".Misc.ModulusDetector.ModulusNotAllowed"/>
+</file>
 </checkstyle>
