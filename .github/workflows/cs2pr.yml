@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: staabm/annotate-pull-request-from-checkstyle-action@v1
+      - uses: staabm/annotate-pull-request-from-checkstyle-action@206fee97c782d0c724ee3cc9daa007985e542fd1
         with:
           files: out.chk
