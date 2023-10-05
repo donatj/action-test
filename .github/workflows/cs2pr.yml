@@ -13,3 +13,4 @@ jobs:
         uses: donatj/annotate-pull-request-from-checkstyle@d165aecf776bce5c20201ae096a4e7668b7a8d43
         with:
           file: out.chk
+      - run: echo "::warning file=app.js,line=1,col=5,endColumn=7::Missing semicolon"
