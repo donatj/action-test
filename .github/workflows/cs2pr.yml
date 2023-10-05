@@ -7,4 +7,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "::warning file=app.js,line=1,col=5,endColumn=7::Missing semicolon"
+      - run: echo "::warning file=README.md,line=1,col=1,endColumn=3::Missing semicolon"
